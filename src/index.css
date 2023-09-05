@@ -34,7 +34,8 @@ body {
   letter-spacing: 0.1em;
   background: var(--dark);
   color: var(--light);
-  font-family: 'Poiret One', cursive;
+  font-family: 'Edge 12', sans-serif;
+  text-align: justify;
 }
 
 h1,
@@ -78,10 +79,30 @@ p {
   margin-top: 0;
 }
 
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	margin-top: 80px;
+}
+
+ul li {
+  display: inline;
+}
+
+ul a {
+  color: var(--light);
+  justify-content: space-evenly;
+}
+
 a {
-  color: var(--tertiary);
+  /*color: var(--tertiary);*/
   text-decoration: none;
   font-weight: bold;
+  /*text-align: justify;*/
+  justify-content: space-evenly;
 }
 
 a:hover {
@@ -282,8 +303,8 @@ a {
   color: var(--primary);
   font-weight: 600;
   padding: 2px 4px;
-  margin-left: -2px;
-  margin-right: -2px;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 .navActive {
